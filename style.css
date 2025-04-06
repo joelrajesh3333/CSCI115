@@ -1,0 +1,294 @@
+/*Joel Joseph Rajesh*/
+/*667783708*/
+
+
+
+/**common for all pages*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #faf6f6e1;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/*upper and lower navi bar*/
+.nav-links {
+    background-color: rgb(194, 194, 188);
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: blue;
+}
+
+.nav-links a.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+/*the bottom part*/
+footer {
+    background-color: rgb(194, 194, 188);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #777;
+}
+
+.socialmedia-links {
+    margin-top: 10px;
+}
+
+.socialmedia-links a {
+    margin: 0 15px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.socialmedia-links a:hover {
+    text-decoration: underline;
+}
+
+/*home page*/
+.intro {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.intro b {
+    font-size: 31px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #666;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.main-content h2 {
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px 25px;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: blue;
+}
+/* project page*/
+.projects-section {
+    margin: 40px 0;
+}
+
+.projects-section h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    width: 30%;
+    background-color: rgb(236, 236, 234);
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project-item h3 {
+    font-size: 25px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.project-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/*for experinece page*/
+.experience-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(236, 236, 234);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.experience-item h3 {
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.experience-item p {
+    font-size: 15px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+/*for skill page*/
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(236, 236, 234);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+.skill ul {
+    
+    padding: 8px 15px;
+    background-color: #f0f4f8;
+    color: #333;
+    font-size: 17px;
+}
+
+/*for contact page*/
+.contact-info {
+    background-color: rgb(236, 236, 234);
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.contact-info h3 {
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-info b {
+    color: #333;
+}
+
+
+
+/*for about page*/
+
+.section-title {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.content {
+    background-color: rgb(236, 236, 234);
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.content h3 {
+    font-size: 25px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
+
